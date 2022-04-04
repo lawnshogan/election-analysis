@@ -56,6 +56,166 @@ counties_tuple[1]
 
 
 
+
+
+
+# Create empty Dictionary
+counties_dict = {}
+
+# Add Arapahoe to dictionary as key and number of registered voters as value
+counties_dict["Arapahoe"] = 422829
+
+# Repeat two more times to add more to dictionary
+counties_dict["Denver"] = 463353
+counties_dict["Jefferson"] = 432438
+
+# Get length of dictionary
+len(counties_dict)
+
+# Get all keys and values - gives you the view object - cannot use list indexing with .items
+counties_dict.items()
+
+# Get all the keys
+counties_dict.keys()
+
+# Get all the values
+counties_dict.values()
+
+# Get specific value
+counties_dict.get("Denver")
+
+
+
+# Iterate through a dictionary
+counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
+
+# Get only the keys (county name) from dictionary
+for county in counties_dict:
+    print(county)
+# You can also do this with 'keys' method
+for county in counties_dict.keys():
+    print(county)
+
+# Get values of a dictionary
+for voters in counties_dict.values():
+    print(voters)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# If Else Practice
+counties = ["Arapahoe","Denver","Jefferson"]
+
+# == is comparison operator equal to
+if counties[1] == 'Denver':
+    print(counties[1])
+
+
+# Membership operators
+counties = ["Arapahoe","Denver","Jefferson"]
+if "El Paso" in counties:
+    print("El Paso is in the list of counties.")
+else:
+    print("El Paso is not the list of counties.")
+
+
+# Logical operators
+if "Arapahoe" in counties and "El Paso" in counties:
+    print("Arapahoe and El Paso are in the list of counties.")
+else:
+    print("Arapahoe or El Paso is not in the list of counties.")
+
+
+
+
+
+
+
+
+
+# If Else Practice
+#What is the score?
+from ast import Or
+
+
+score = int(input("What is your test score? "))
+
+# Determine the grade.
+if score >= 90:
+    print('Your grade is an A.')
+else:
+    if score >= 80:
+        print('Your grade is a B.')
+    else:
+        if score >= 70:
+            print('Your grade is a C.')
+        else:
+            if score >= 60:
+                print('Your grade is a D.')
+            else:
+                print('Your grade is an F.')
+
+
+#Or - Example 2
+# What is the score?
+score = int(input("What is your test score? "))
+
+# Determine the grade.
+if score >= 90:
+    print('Your grade is an A.')
+elif score >= 80:
+    print('Your grade is a B.')
+elif score >= 70:
+    print('Your grade is a C.')
+elif score >= 60:
+    print('Your grade is a D.')
+else:
+    print('Your grade is an F.')
+
+
+
+# If Else Practice
+temperature = int(input("What is the temperature outside? "))
+
+if temperature > 80:
+    print("Turn on the AC.")
+else:
+    print("Open the windows.")
+
+
+
+# While Loop
+# Set Variable
+x = 0
+# Test if x is less than or equal to 5
+while x <= 5:
+# If TRUE, print x
+    print(x)
+# Increment x by 1 until condition is false
+    x = x + 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Iterate through lists and tuples
 for county in counties:
     print(county)
@@ -123,3 +283,12 @@ with open(file_to_load) as election_data:
 
      # To do: perform analysis.
      print(election_data)
+
+
+# Inderect path to file
+import os
+# Directory of os
+dir(os)
+# We need 'os.path'
+dir(os.path)
+# We need join()
