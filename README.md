@@ -54,5 +54,60 @@ For the finale, we need the information regarding our winning candidate, total v
 
 
 <p align="center">
-  <img src="" width="700"/>
+  <img src="https://github.com/lawnshogan/election-analysis/blob/main/Resources/Determining%20Winners%20-%20Code%20Block.png" width="700"/>
 </p>
+
+
+
+### **Results**
+
+
+<p align="center">
+  <img src="https://github.com/lawnshogan/election-analysis/blob/main/Resources/Deliverable%201%20-%20Text%20Output.png" width="700"/>
+</p>
+
+
+    - How many votes were cast in this congressional election?
+
+<p align="center">
+  <img src="369,711 Total Votes" width="700"/>
+</p>
+
+    - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+
+<p align="center">
+  <img src="Jefferson: 10.5% (38,855)
+  Denver: 82.8% (306,055)
+  Arapahoe: 6.7% (24,801)" width="700"/>
+</p>
+
+    - Which county had the largest number of votes?
+
+<p align="center">
+  <img src="Denver" width="700"/>
+</p>
+
+    - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+
+<p align="center">
+  <img src="Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)" width="700"/>
+</p>
+
+    - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+
+<p align="center">
+  <img src="Diana DeGette: 73.8% (272,892)" width="700"/>
+</p>
+
+
+
+### **Summary**
+
+
+I would tell them if they got me more data there would be more analysis I could perform and more answers that could be answered. Sure it's great we got election results that are accurate, but what if we want to know more demographics about these these voters?
+
+This script could also be used in State or even Federal elections as well and could be altered to look at districts, counties, states, regions - anything really.
+
+If Diana DeGette could get information regarding her 272,892 voters, she might be able to win the following election as well. This analysis could be performed on her select group of voters with more data.
