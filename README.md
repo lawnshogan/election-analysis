@@ -41,6 +41,11 @@ The most logical next step in my mind was to focus on the count of each individu
 The same was done for each individual county, as shown below.
 
 <p align="center">
-  <img src="
-  " width="700"/>
+  <img src="https://github.com/lawnshogan/election-analysis/blob/main/Resources/Candidate%20%26%20County%20Votes%20-%20Code%20Block.png" width="700"/>
+</p>
+
+With this completed, it is also important we find the total votes:
+
+<p align="center">
+  <img src="" width="700"/>
 </p>
