@@ -47,5 +47,12 @@ The same was done for each individual county, as shown below.
 With this completed, it is also important we find the total votes:
 
 <p align="center">
+  <img src="https://github.com/lawnshogan/election-analysis/blob/main/Resources/Total%20Votes%20-%20Code%20Block.png" width="700"/>
+</p>
+
+For the finale, we need the information regarding our winning candidate, total votes of the winning candidate and percentage of their vote vs the total. The following code was used for both county and candidate variables.
+
+
+<p align="center">
   <img src="" width="700"/>
 </p>
